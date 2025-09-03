@@ -1,6 +1,6 @@
 import { Ionicons } from '@expo/vector-icons';
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
     Alert,
     FlatList,
@@ -14,7 +14,7 @@ import {
     View,
 } from 'react-native';
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://note-api-osvu.onrender.com/api';
 
 type Note = {
   id: string;
