@@ -1,8 +1,8 @@
 import axios from 'axios';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Alert, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://note-api-osvu.onrender.com/api';
 
 export default function AuthScreen({ onAuthSuccess }: { onAuthSuccess: (token: string) => void }) {
   const [isSignUp, setIsSignUp] = useState(false);
