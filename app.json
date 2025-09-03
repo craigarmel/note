@@ -9,7 +9,8 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.craigarmel.hey"
     },
     "android": {
       "adaptiveIcon": {
@@ -37,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "48f4d57c-d530-42c4-bfcc-1ecf083af408"
+      }
+    },
+    "owner": "craigarmel"
   }
 }
